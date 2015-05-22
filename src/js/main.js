@@ -8,5 +8,5 @@ export function doSomething () {
 export function doSomethingElse () {
 	d3.select( 'body' )
 		.append( 'p' )
-		.html( 'it works!' );
+		.html( 'it works! check the console, and refresh the page - you should see sourcemapped source code' );
 }
